@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- font roboto -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- form signup -->
+  <div class="signup" id="register">
+    <div class="signup__container">
+      <h1>Đăng Ký</h1>
+      <form action="">
+        <h5 id="spacing">Username</h5>
+        <input type="text" class="input-signup-username" />
+        <div class="valid_box" id="valid_username"></div>
+        <h5 id="spacing">Email</h5>
+        <input type="email" class="input-signup-email" />
+        <div class="valid_box" id="valid_email"></div>
+        <h5 id="spacing">Password</h5>
+        <input type="password" class="input-signup-password" />
+        <div class="valid_box"></div>
+        <h5 id="spacing">Confirm Password</h5>
+        <input type="password" class="input-confirm-password" />
+        <div class="valid_box" id="valid_password"></div>
+        <button type="submit" style="margin-top: 10px;" onclick="send()">Đăng Ký</button>
+      </form>
+      <div class="fhs-register-term">
+        Bằng việc đăng ký, bạn đã đồng ý với Fahasa.com về<br>
+        <a href="#" target="_blank" style> Điều khoản dịch vụ</a>
+        &nbsp;&amp;&nbsp;
+        <a href="#" target="_blank" style>Chính sách bảo mật</a>
+          </div>
+      <a href="login.html" class="signup__registerButton">Đã có tài khoản</a>
+    </div>
+  </div>
+</body>
+<script src="signup.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</html>
